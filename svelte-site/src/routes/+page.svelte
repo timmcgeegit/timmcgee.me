@@ -11,7 +11,7 @@
     </div>
   </div>
 
-<article class="prose">
+<article class="prose max-w-2xl px-6 my-12 mx-auto">
     <h1>Garlic bread with cheese: What the science tells us</h1>
     <p>
       For years parents have espoused the health benefits of eating garlic bread with cheese to their

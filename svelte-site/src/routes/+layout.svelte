@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../app.postcss';
+	import '../app.css';
 	import Header from './header.svelte';
 	import Footer from './footer.svelte'
 </script>
