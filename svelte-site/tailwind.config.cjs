@@ -8,13 +8,17 @@ const config = {
 
 	plugins: [require("@tailwindcss/typography"), require("daisyui")],
 	daisyui: {
-		themes: ["corporate", "light", "business"], // true: all themes | false: only light + dark | array: specific themes like this ["light", "dark", "cupcake"]
-		darkTheme: "business", // name of one of the included themes for dark mode
-		 },
-	
-	
-	};
-
-	
+		themes: [
+			{
+			  corporate: {
+				...require("daisyui/src/theming/themes")["[data-theme=corporate]"],
+				"primary": '#1c4f82',
+				"primary-focus": "mediumblue",
+			  },
+			},'light', 'business',
+		  ],
+		  darkTheme: "business",
+		},
+	  }
 
 module.exports = config;

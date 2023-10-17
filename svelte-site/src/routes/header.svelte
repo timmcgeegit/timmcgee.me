@@ -44,7 +44,7 @@ onMount(() => {
             </ul>
           </details>
         </li>
-        <li><a href="/blog">Blog</a></li>
+        <li><a href="/#blog">Blog</a></li>
       </ul>
     </div>
     <div class="navbar-end">
