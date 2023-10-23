@@ -11,7 +11,6 @@
 
 <div class="hero min-h-screen-sm bg-base-200 py-11 mb-10">
     <div class="hero-content flex-col lg:flex-row-reverse mx-auto max-w-screen-lg">
-      <img src="/IMG_2444.PNG" alt="headshot of Tim McGee" class="max-w-sm rounded-lg shadow-2xl mx-10" />
       <div>
         <h1 class="text-6xl font-bold">Box Office News!</h1>
         <p class="py-6 pr-14">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>

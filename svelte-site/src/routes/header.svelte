@@ -37,8 +37,8 @@ onMount(() => {
         <li><a href="/about">About</a></li>
         <li tabindex="0">
           <details>
-            <summary>Services</summary>
-            <ul class="p-2">
+            <summary>Work</summary>
+            <ul class="p-2 z-50">
               <li><a>Submenu 1</a></li>
               <li><a>Submenu 2</a></li>
             </ul>

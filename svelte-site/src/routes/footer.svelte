@@ -5,7 +5,7 @@
 
 <footer class="footer footer-center p-4 bg-base-300 text-base-content">
     <aside class="max-w-screen-xl">
-      <p>Copyright © {currentYear} - All right reserved by Tim McGee</p>
+      <p class="text-sm">Copyright © {currentYear} - All right reserved by Tim McGee</p>
     </aside>
 
 
