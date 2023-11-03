@@ -38,7 +38,7 @@ onMount(() => {
         <li tabindex="0">
           <details>
             <summary>Work</summary>
-            <ul class="p-2 z-50">
+            <ul class="p-2 z-50 min-w-[150px]">
               <li><a>Submenu 1</a></li>
               <li><a>Submenu 2</a></li>
             </ul>
