@@ -30,7 +30,11 @@ onMount(() => {
           <li><a>Item 3</a></li>
         </ul>
       </div>
-      <a href="/" class="btn btn-ghost normal-case text-xl">Tim McGee</a>
+      <a href="/" class="btn btn-ghost normal-case text-xl"><div class="avatar">
+        <div class="w-10 rounded-full">
+          <img src="/tim-headshot-2020-1-300x300 copy.jpeg" />
+        </div>
+      </div>Tim McGee</a>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">

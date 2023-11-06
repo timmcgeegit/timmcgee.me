@@ -4,38 +4,25 @@
     // Add your script here
 </script>
 
-<div class="hero min-h-screen-lg py-12 bg-base-200 mb-10">
-    <div class="hero-content text-center">
-      <div class="max-w-md">
-        <h1 class="text-5xl font-bold">About Me</h1>
-      </div>
-    </div>
-  </div>
 
 <div class="my-12 min-h-full lg:px-20 prose max-w-5xl">
 		<div class="px-6">
-			<h2 class="font-bold">Thanks for visiting my website</h2>
-			  <p>I'm a Marketing Director with a rich background in brand strategy, digital marketing, and content creation. With over ten years in the field, I've honed my skills in driving growth, enhancing brand visibility, and leading digital transformations that resonate with audiences and meet business goals.</p>
+      <h1 class="text-5xl font-bold">About Me</h1>
+			<h2 class="font-bold">Hi, I'm Tim! Thanks for visiting my website.</h2>
+      <p>As a Digital Strategist and Marketing Director with over a decade of experience, I specialize in blending brand strategy, digital marketing, and content creation to elevate brand visibility and increase audience engagement. My approach is centered around crafting resourceful marketing campaigns and leading digital transformation initiatives that drive growth and improve customer experiences.
+      </p>
+      <h3>A Passion for Creative Communication</h3>
+      <p>At the heart of my work is a passion for communication, digital media, and design. I excel at forging powerful connections between brands and their audiences—whether it’s through compelling storytelling, intentional web design, or strategic marketing campaigns.</p>
+      
+      <p>From humble beginnings crafting WordPress sites in 2010 to masterminding digital revamps and strategic content that boosts brand recognition and community ties, my journey is marked by a progression to prominence. I've proudly led the charge at A.H. Beck Foundation Company, orchestrating marketing endeavors that not only meet market trends but also drive our business forward.</p>
+      
+      <p>Armed with a my special blend of technical know-how and creative style, I navigate the delicate balance between data-driven strategies and human-centric design. My mission is to demystify complex ideas, transforming them into relatable and impactful experiences for targeted audiences.</p>
 
-        <h3>Professional Journey</h3>
+      <p>My career journey is underpinned by an insatiable curiosity and a commitment to lifelong learning. I'm continously honing my abilities in skills like storytelling, strategic communication, and web development. I'm fascinated by the pace of change and enjoy keeping a pulse on the latest advancements in marketing and digital innovation.</p>
 
-          <p>Currently steering the marketing helm at A.H. Beck Foundation Company, I've led a successful website redesign and developed marketing strategies that have significantly improved our customer engagement and conversion rates. My role extends to our subsidiary, NCCIC, where I've enhanced customer experiences and aligned sales and marketing efforts to boost revenue growth.</p>
-          <p>As an Independent Consultant with Tim McGee LLC, I've partnered with a diverse range of clients to craft and implement custom marketing solutions that have bolstered their online presence and business success.</p>
-
-        <h3>Collaborations and Contributions</h3>
-
-          <p>My work has spanned various industries, with key projects for the Noel Group, Cabinetree, Equine Express, and The Leader’s Journey. From establishing online presences to creating compelling multimedia content, I've helped brands tell their stories and connect with their audiences.</p>
-
-        <h3>Skills and Expertise</h3>
-          <p>I bring a suite of skills to the table, including strategic marketing, web development, SEO, PPC, CRM management, and multimedia production. My technical toolkit includes HTML, CSS, JavaScript, and proficiency in platforms like WordPress and Squarespace, as well as analytics and ad tools like Google Analytics and AdWords.</p>
-
-         <h3>The Creative Side</h3> 
-
-          <p>Beyond my marketing expertise, I am a passionate digital creator. I engage with the world through landscape and lifestyle photography, wedding films, and video essays. These creative endeavors complement my professional work, adding depth to my understanding of storytelling and digital media.</p>
-
-        <h3>Interests and Philosophy</h3>
-
-          <p>My interests are broad, encompassing systems thinking, human behavior, and emotional intelligence, all of which inform my approach to marketing and business. I'm committed to continuous learning and staying ahead of the curve in a rapidly evolving digital landscape.</p>
+      <!-- <p>My interests are broad, encompassing systems thinking, human behavior, and emotional intelligence, all of which inform my approach to marketing and business. I'm committed to continuous learning and staying ahead of the curve in a rapidly evolving digital landscape.</p> -->
+      
+      <p>Beyond business, I'm dedicated to making a real impact in the world. It's a privilege to apply my skills in support of causes that build a better, shared future.</p>
 
         <h3>Let's Connect</h3>
 
