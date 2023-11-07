@@ -12,25 +12,18 @@
 <div class="hero min-h-screen-sm py-11 mb-10">
     <div class="hero-content flex-col lg:flex-row-reverse mx-auto max-w-screen-lg">
       <div>
-        <h1 class="text-8xl"><span class="font-extrabold">Digital Strategist</span> <span class="text-primary">&</span> <span class="font-extrabold">Marketing Director</span></h1>
+        <h1 class="lg:text-8xl text-4xl"><span class="font-extrabold">Digital Strategist</span> <span class="text-primary">&</span> <span class="font-extrabold">Marketing Director</span></h1>
         <p class="py-6 pr-14">Hi, I'm Tim! Thanks for visiting my website. I’m a <span class="text-primary font-extrabold">digital strategist</span> and <span class="text-primary font-extrabold">marketing director</span> with more than a decade of experience leading cross-functional teams to deliver projects that achieve key business objectives.</p>
         <button class="btn btn-primary">Get Started</button>
       </div>
     </div>
   </div>
   <div>
-    <div class="grid">
-      <div class="flex justify-center bg-base-200"><img src="AHB vid 1.mp4" alt=""></div>
-    <div class="max-w-lg overflow-hidden bg-base-200">
-      <div class="mockup-browser mx-auto border bg-base-300 h-60 max-w-md">
-        <div class="mockup-browser-toolbar">
-          <div class="input">https://ahbeck.com</div>
-        </div>
-        <div class="flex justify-center bg-base-200"><img src="/AHB vid 1.mp4" alt=""></div>
-      </div>
+    <div class="flex">
+      
     </div>
   </div>
-  </div>
+  
 
   <article class="prose max-w-2xl px-6 my-12 mx-auto">
     <h2 class="title text-5xl" id="blog">Blog Posts</h2>
