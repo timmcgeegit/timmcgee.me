@@ -18,9 +18,17 @@
       </div>
     </div>
   </div>
-  <div>
+  
+  <div id="portfolio">
     <div class="flex">
-      
+      <div class="card"></div>
+    </div>
+  </div>
+
+  <div class="card w-96 bg-base-100 shadow-xl image-full h-52 object-cover bg-[url('/ahbeckwebsitescreenshot.png')]">
+    <div class="card-body">
+      <h2 class="card-title">Shoes!</h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
     </div>
   </div>
   
