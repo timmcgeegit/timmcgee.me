@@ -21,18 +21,12 @@
       </div>
     </div>
   </div>
-  
-  <div id="portfolio">
-    <div class="flex">
-      <div class="card"></div>
-    </div>
-  </div>
 
   <div class="carousel gap-2 h-96 rounded-box">
     <div class="carousel-item rounded-box">
       <img class="rounded-box" src="/AHB Clear Creek Gif.gif" alt="project case study video for A.H. Beck Foundation Company" />
     </div>
-    <div class="carousel-item rounded-box">
+    <div class="carousel-item w-auto rounded-box">
       <img class="rounded-box" src="/yosemite-landscape-gallery.webp" alt="yosemite national park landscape photography" />
     </div> 
     <div class="carousel-item portfolio-website rounded-box w-96 h-96 overflow-hidden bg-no-repeat bg-cover bg-top transition duration-500 ease-in-out" style="background-image: url('/ahbeckwebsitescreenshot.png');">
@@ -40,10 +34,10 @@
     <div class="carousel-item aspect-video rounded-box">
       <img class="rounded-box" src="/lauren-doc.gif" alt="documentary film dictoring and cinematogrpahy" />
     </div>
-    <div class="carousel-item rounded-box">
-      <img class="rounded-box" src="/TLJP-gallery-photo.webp" alt="Podcast production and distribution" />
+    <div class="carousel-item w-auto rounded-box">
+      <img class="rounded-box w-auto" src="/TLJP-gallery-photo.webp" alt="Podcast production and distribution" />
     </div> 
-    <div class="carousel-item" style="background-image: url('/yosemite wedding gif.gif');">
+    <div class="carousel-item">
       <img class="rounded-box" src="/yosemite wedding gif.gif" alt="documentary film dictoring and cinematogrpahy" />
     </div> 
     
