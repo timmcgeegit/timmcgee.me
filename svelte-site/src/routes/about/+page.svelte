@@ -8,15 +8,13 @@
 <div class="my-12 min-h-full lg:px-20 prose max-w-5xl">
 		<div class="px-6">
       <h1 class="text-5xl font-bold">About Me</h1>
-			<h2 class="font-bold">Hi, I'm Tim! Thanks for visiting my website.</h2>
-      <p>As a Digital Strategist and Marketing Director with over a decade of experience, I specialize in blending brand strategy, digital marketing, and content creation to elevate brand visibility and increase audience engagement. My approach is centered around crafting resourceful marketing campaigns and leading digital transformation initiatives that drive growth and improve customer experiences.
+      <p>Welcome to my digital sandbox. I plan to use this website as my digital homebase, an online portfolio, a digital garden, and a space where I can share what I am learning and practicing, in public. </p>
+			<h2 class="font-bold">Who am I?</h2>
+      <p>Hi, I'm Tim. Professionally, I specialize in blending brand strategy, digital marketing, and content creation to elevate brand visibility and increase audience engagement. My approach is centered around crafting marketing campaigns and leading digital initiatives that drive growth and improve customer experiences.
       </p>
-      <h3>A Passion for Creative Communication</h3>
-      <p>At the heart of my work is a passion for communication, digital media, and design. I excel at forging powerful connections between brands and their audiences—whether it’s through compelling storytelling, intentional web design, or strategic marketing campaigns.</p>
+      <p>At the heart of my work is a passion for communication, digital media, and design. From building WordPress sites in 2010 with nothing more than persistance to crafting entire brand identies and strategic content campaigns that boosts brand recognition and community ties, my journey is marked by a persistance, agility, and a committment to contiuous improvement.</p>
       
-      <p>From humble beginnings crafting WordPress sites in 2010 to masterminding digital revamps and strategic content that boosts brand recognition and community ties, my journey is marked by a progression to prominence. I've proudly led the charge at A.H. Beck Foundation Company, orchestrating marketing endeavors that not only meet market trends but also drive our business forward.</p>
-      
-      <p>Armed with a my special blend of technical know-how and creative style, I navigate the delicate balance between data-driven strategies and human-centric design. My mission is to demystify complex ideas, transforming them into relatable and impactful experiences for targeted audiences.</p>
+      <p>I bring my own special blend of technical know-how and creative style, I navigate the delicate balance between data-driven strategies and human-centric design. I pride myself on my ability to demystify complex ideas, transforming them into relatable and impactful experiences for targeted audiences.</p>
 
       <p>My career journey is underpinned by an insatiable curiosity and a commitment to lifelong learning. I'm continously honing my abilities in skills like storytelling, strategic communication, and web development. I'm fascinated by the pace of change and enjoy keeping a pulse on the latest advancements in marketing and digital innovation.</p>
 
