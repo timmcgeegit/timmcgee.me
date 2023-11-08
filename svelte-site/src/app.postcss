@@ -5,8 +5,23 @@
 
 .btn {
     border-radius: 7px;
+    
 }
 
 p {
     font-size: 1.25rem;
 }
+
+@keyframes scrollBackground {
+    to {
+      background-position-y: 100%;
+    }
+  }
+
+  .portfolio-website {
+    background-position-y: 0%;
+  }
+
+  .portfolio-website:hover {
+    animation: scrollBackground 5s ease-in-out forwards;
+  }

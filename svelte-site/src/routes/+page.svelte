@@ -3,18 +3,21 @@
 	import * as config from '$lib/config'
 
 	export let data
+
 </script>
 
 <svelte:head>
 	<title>{config.title}</title>
 </svelte:head>
 
+
+
 <div class="hero min-h-screen-sm py-11 mb-10">
     <div class="hero-content flex-col lg:flex-row-reverse mx-auto max-w-screen-lg">
       <div>
         <h1 class="lg:text-8xl text-4xl"><span class="font-extrabold">Digital Strategist</span> <span class="text-primary">&</span> <span class="font-extrabold">Marketing Director</span></h1>
-        <p class="py-6 pr-14">Hi, I'm Tim! Thanks for visiting my website. I’m a <span class="text-primary font-extrabold">digital strategist</span> and <span class="text-primary font-extrabold">marketing director</span> with more than a decade of experience leading cross-functional teams to deliver projects that achieve key business objectives.</p>
-        <button class="btn btn-primary">Get Started</button>
+        <p class="py-6 pr-14">Hi, I'm Tim! For more than a decade I've led cross-functional teams to deliver projects that achieve key business objectives as a <span class="text-primary font-extrabold">digital strategist</span> and <span class="text-primary font-extrabold">marketing director</span>.</p>
+        <a class="btn text-white btn-primary" href="/Tim McGee Resume 11-2023.pdf" target="_blank">Download Resume</a>
       </div>
     </div>
   </div>
@@ -25,28 +28,72 @@
     </div>
   </div>
 
-  <div class="card w-96 bg-base-100 shadow-xl image-full h-52 object-cover bg-[url('/ahbeckwebsitescreenshot.png')]">
-    <div class="card-body">
-      <h2 class="card-title">Shoes!</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+  <div class="carousel gap-2 h-96 rounded-box">
+    <div class="carousel-item rounded-box">
+      <img class="rounded-box" src="/AHB Clear Creek Gif.gif" alt="project case study video for A.H. Beck Foundation Company" />
+    </div>
+    <div class="carousel-item rounded-box">
+      <img class="rounded-box" src="/yosemite-landscape-gallery.webp" alt="yosemite national park landscape photography" />
+    </div> 
+    <div class="carousel-item portfolio-website rounded-box w-96 h-96 overflow-hidden bg-no-repeat bg-cover bg-top transition duration-500 ease-in-out" style="background-image: url('/ahbeckwebsitescreenshot.png');">
+    </div> 
+    <div class="carousel-item aspect-video rounded-box">
+      <img class="rounded-box" src="/lauren-doc.gif" alt="documentary film dictoring and cinematogrpahy" />
+    </div>
+    <div class="carousel-item rounded-box">
+      <img class="rounded-box" src="/TLJP-gallery-photo.webp" alt="Podcast production and distribution" />
+    </div> 
+    <div class="carousel-item" style="background-image: url('/yosemite wedding gif.gif');">
+      <img class="rounded-box" src="/yosemite wedding gif.gif" alt="documentary film dictoring and cinematogrpahy" />
+    </div> 
+    
+  </div>
+
+  <div class="px-5">
+    <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row my-16">
+      <h3 class="text-center mx-auto px-5 text-7xl font-extrabold">Resume</h3>
+    </div>
+    <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
+      <h2 class="w-1/2 lg:text-right text-4xl font-bold">About</h2>
+      <p class="text-2xl lg:w-3/4 my-0 leading-relaxed">I specialize in blending brand strategy, digital marketing, and content creation to elevate brand visibility and increase audience engagement. My approach is centered around crafting marketing campaigns and leading digital transformation initiatives that drive growth and improve customer experiences.</p>
+    </div>
+    <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
+      <h3 class="text-center mx-auto px-5 text-5xl font-extrabold">Recent Work</h3>
+    </div>
+    <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
+      <div class="w-1/2 leading-tight lg:text-right">
+        <h4 class="text-2xl my-1 font-bold">Director of Marketing</h4>
+        <p class="my-1">A.H. Beck Foundation Co.</p>
+        <p class="my-1">July 2022 – Present</p>
+      </div>
+      <div class="lg:w-3/4">
+        <p class="my-1">Led a strategic overhaul of the brand’s digital presence and visual identity, aligning the website and marketing materials with the company's market-leading expertise. The result was a revitalized brand narrative that resonates with the target audience and supportes key company objectives.</p>
+      </div>
+    </div>
+    <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
+      <div class="w-1/2 leading-tight lg:text-right">
+        <h4 class="text-2xl my-1 font-bold">Director of Marketing</h4>
+        <p class="my-1">National CCIC</p>
+        <p class="my-1">July 2022 – Present</p>
+      </div>
+      <div class="lg:w-3/4">
+        <p class="my-1">Led a user-centric website redesign improving user experience and conversions, integrated cutting-edge CRM and automation software to improve engagement and workflow efficiency, and executed targeted SEO and PPC campaigns to boost online visibility. I also united sales, marketing, and customer service teams, creating a cohesive strategy that measurably increased revenue and improved the entire customer lifecycle.</p>
+      </div>
+    </div>
+    <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
+      <div class="w-1/2 leading-tight lg:text-right">
+        <h4 class="text-2xl my-1 font-bold">Independent Consultant</h4>
+        <p class="my-1">Tim McGee LLC</p>
+        <p class="my-1">Jan 2010 – Present</p>
+      </div>
+      <div class="lg:w-3/4">
+        <p class="my-1">I've partnered with clients to craft and implement customized marketing strategies and digital campaigns,including websites and brand strategies that enhance online visibility and drive business expansion. I've led dynamic content campaigns across video, podcasts, and social media to elevate brand awareness and affinity, as well as developed robust e-commerce and learning platforms, ensuring my clients not only reach but exceed their diverse business objectives..</p>
+      </div>
     </div>
   </div>
-  
 
-  <article class="prose max-w-2xl px-6 my-12 mx-auto">
-    <h2 class="title text-5xl" id="blog">Blog Posts</h2>
-    <div class="posts">
-      {#each data.posts as post}
-        <div class="post my-6">
-          <h3 class="text-2xl my-1"><a href={post.slug} class="title">{post.title}</a></h3>
-          <p class="date m-0">{formatDate(post.date)}</p>
-          <p class="description my-0">{post.description}</p>
-        </div>
-      {/each}
-      </div>
-  
-    </article>
 
     <style>
-      
+    
+
     </style>

@@ -13,7 +13,7 @@ const config = {
 			  corporate: {
 				...require("daisyui/src/theming/themes")["[data-theme=corporate]"],
 				"primary": '#1c4f82',
-				"primary-focus": "mediumblue",
+				"primary-focus": "#14375b90",
 			  },
 			},'light', 'business',
 		  ],
