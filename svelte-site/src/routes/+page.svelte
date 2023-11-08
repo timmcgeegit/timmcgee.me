@@ -15,8 +15,8 @@
 <div class="hero min-h-screen-sm py-11 mb-10">
     <div class="hero-content flex-col lg:flex-row-reverse mx-auto max-w-screen-lg">
       <div>
-        <h1 class="lg:text-8xl text-4xl"><span class="font-extrabold">Digital Strategist</span> <span class="text-primary">&</span> <span class="font-extrabold">Marketing Director</span></h1>
-        <p class="py-6 pr-14">Hi, I'm Tim! For more than a decade I've led cross-functional teams to deliver projects that achieve key business objectives as a <span class="text-primary font-extrabold">digital strategist</span> and <span class="text-primary font-extrabold">marketing director</span>.</p>
+        <h1 class="lg:text-8xl font-bold text-7xl">Hey,<br>I'm Tim</h1>
+        <p class="py-6 pr-14 max-w-3xl text-2xl leading-relaxed">For more than a decade I've led cross-functional teams to deliver projects that achieve key business objectives as a <span class="text-primary font-extrabold">digital strategist</span> and <span class="text-primary font-extrabold">marketing director</span>.</p>
         <a class="btn text-white btn-primary" href="/Tim McGee Resume 11-2023.pdf" target="_blank">Download Resume</a>
       </div>
     </div>
@@ -45,7 +45,7 @@
 
   <div class="px-5">
     <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row my-16">
-      <h3 class="text-center mx-auto px-5 text-7xl font-extrabold">Resume</h3>
+      <h3 class="lg:text-center lg:mx-auto text-7xl font-extrabold">Resume</h3>
     </div>
     <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
       <h2 class="lg:w-1/2 lg:text-right text-4xl font-bold">About</h2>
