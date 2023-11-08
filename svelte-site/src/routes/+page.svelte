@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <div class="carousel gap-2 h-96 rounded-box">
+  <div class="md:carousel hidden gap-2 h-96 rounded-box">
     <div class="carousel-item rounded-box">
       <img class="rounded-box" src="/AHB Clear Creek Gif.gif" alt="project case study video for A.H. Beck Foundation Company" />
     </div>

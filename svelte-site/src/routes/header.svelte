@@ -21,7 +21,7 @@ onMount(() => {
         <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li><a href="/about">About</a></li>
         <li><a href="/blog">Notes</a></li>
-        <li><a href="/contact">Contact</a></li>
+        
         </ul>
       </div>
       <a href="/" class="btn btn-ghost normal-case text-xl"><div class="avatar">
@@ -34,7 +34,7 @@ onMount(() => {
       <ul class="menu menu-horizontal px-1">
         <li><a href="/about">About</a></li>
         <li><a href="/blog">Notes</a></li>
-        <li><a href="/contact">Contact</a></li>
+        
       </ul>
     </div>
     <div class="navbar-end">
