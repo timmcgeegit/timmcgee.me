@@ -45,10 +45,10 @@
 
   <div class="px-5">
     <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row my-16">
-      <h3 class="lg:text-center lg:mx-auto text-7xl font-extrabold">Resume</h3>
+      <h2 class="lg:text-center lg:mx-auto text-7xl font-extrabold">Resume</h2>
     </div>
     <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
-      <h2 class="lg:w-1/2 lg:text-right text-4xl font-bold">About</h2>
+      <h3 class="lg:w-1/2 lg:text-right text-4xl font-bold">About Me</h3>
       <p class="text-2xl lg:w-3/4 my-0 leading-relaxed">I specialize in blending brand strategy, digital marketing, and content creation to elevate brand visibility and increase audience engagement. My approach is centered around crafting marketing campaigns and leading digital transformation initiatives that drive growth and improve customer experiences.</p>
     </div>
     <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
