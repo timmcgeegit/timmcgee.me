@@ -48,14 +48,14 @@
       <h3 class="text-center mx-auto px-5 text-7xl font-extrabold">Resume</h3>
     </div>
     <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
-      <h2 class="w-1/2 lg:text-right text-4xl font-bold">About</h2>
+      <h2 class="lg:w-1/2 lg:text-right text-4xl font-bold">About</h2>
       <p class="text-2xl lg:w-3/4 my-0 leading-relaxed">I specialize in blending brand strategy, digital marketing, and content creation to elevate brand visibility and increase audience engagement. My approach is centered around crafting marketing campaigns and leading digital transformation initiatives that drive growth and improve customer experiences.</p>
     </div>
     <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
       <h3 class="text-center mx-auto px-5 text-5xl font-extrabold">Recent Work</h3>
     </div>
     <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
-      <div class="w-1/2 leading-tight lg:text-right">
+      <div class="lg:w-1/2 leading-tight lg:text-right">
         <h4 class="text-2xl my-1 font-bold">Director of Marketing</h4>
         <p class="my-1">A.H. Beck Foundation Co.</p>
         <p class="my-1">July 2022 – Present</p>
@@ -65,7 +65,7 @@
       </div>
     </div>
     <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row flex-wrap lg:flex-nowrap my-16">
-      <div class="w-1/2 leading-tight lg:text-right">
+      <div class="lg:w-1/2 leading-tight lg:text-right">
         <h4 class="text-2xl my-1 font-bold">Director of Marketing</h4>
         <p class="my-1">National CCIC</p>
         <p class="my-1">July 2022 – Present</p>
