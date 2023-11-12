@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'
+  import PortfolioItem from '$lib/components/PortfolioItem.svelte';
 
 	export let data
 
@@ -23,6 +24,14 @@
   </div>
 
   <div class="md:carousel hidden gap-2 h-96 rounded-box">
+    <div class="carousel-item aspect-video rounded-box">
+      <PortfolioItem staticMedia="/ahbclearcreekstill.webp" animatedMedia="/AHB Clear Creek Gif.gif" />
+    </div>
+    <div class="carousel-item aspect-video rounded-box">
+      <PortfolioItem staticMedia="/laurendocthumbnail@0.5x.webp" animatedMedia="/lauren-doc.gif" />
+    </div> 
+    </div>
+  <!-- <div class="md:carousel hidden gap-2 h-96 rounded-box">
     <div class="carousel-item rounded-box">
       <img class="rounded-box" src="/AHB Clear Creek Gif.gif" alt="project case study video for A.H. Beck Foundation Company" />
     </div>
@@ -41,7 +50,7 @@
       <img class="rounded-box" src="/yosemite wedding gif.gif" alt="documentary film dictoring and cinematogrpahy" />
     </div> 
     
-  </div>
+  </div> -->
 
   <div class="px-5">
     <div class="prose max-w-6xl gap-x-24 mx-auto flex flex-row my-16">
