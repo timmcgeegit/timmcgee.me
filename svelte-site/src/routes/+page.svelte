@@ -27,8 +27,15 @@
     <div class="carousel-item rounded-box">
       <PortfolioItem class="aspect-video" staticMedia="/ahbclearcreekstill.webp" animatedMedia="/AHB Clear Creek Gif.gif" />
     </div>
+    <div class="carousel-item portfolio-website rounded-box w-96 h-96 overflow-hidden bg-no-repeat bg-cover bg-top transition duration-500 ease-in-out" style="background-image: url('/ahbeckwebsitescreenshot.png');"></div>
     <div class="carousel-item rounded-box">
       <PortfolioItem class="aspect-video" staticMedia="/laurendocthumbnail@0.5x.webp" animatedMedia="/lauren-doc.gif" />
+    </div>
+    <div class="carousel-item rounded-box">
+      <PortfolioItem staticMedia="/TLJP-gallery-photo.webp"animatedMedia="/TLJP-gallery-photo.webp" />
+    </div> 
+    <div class="carousel-item rounded-box">
+      <PortfolioItem staticMedia="/yosemite-landscape-gallery.webp"animatedMedia="/yosemite-landscape-gallery.webp" />
     </div> 
     </div>
   <!-- <div class="md:carousel hidden gap-2 h-96 rounded-box">
