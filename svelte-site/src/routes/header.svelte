@@ -1,14 +1,37 @@
 <script lang="ts">
   import * as config from '$lib/config'
 
-  import { onMount } from 'svelte'
-import { themeChange } from 'theme-change'
+  import { onMount } from 'svelte';
+  import { themeChange } from 'theme-change';
 
-// NOTE: the element that is using one of the theme attributes must be in the DOM on mount
-onMount(() => {
-  themeChange(false)
-  // 👆 false parameter is required for svelte
-})
+  let themeToggle;
+  let currentTheme;
+
+  const setTheme = (theme, dataKey) => {
+    currentTheme = theme; // Update the current theme variable
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem(dataKey, theme);
+    updateTogglePosition(theme);
+  };
+
+  const updateTogglePosition = (theme) => {
+    const isDark = theme === 'business';
+    themeToggle.classList.toggle('pl-4', isDark);
+  };
+
+  onMount(() => {
+    themeChange(false); // Initialize theme change
+
+    const dataKey = 'theme';
+    currentTheme = localStorage.getItem(dataKey) || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'business' : 'corporate');
+    
+    setTheme(currentTheme, dataKey);
+
+    themeToggle.addEventListener('click', () => {
+      const newTheme = currentTheme === 'business' ? 'corporate' : 'business';
+      setTheme(newTheme, dataKey);
+    });
+  });
 </script>
 
 <nav>
@@ -42,11 +65,10 @@ onMount(() => {
       <div class="m-5 flex flex-row gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
         <div class="inline-block w-10">
-          <span data-toggle-theme="business" data-act-class="pl-4" class="border rounded-full flex items-center cursor-pointer w-10 transition-all duration-300 ease-in-out pl-0">
-            <span class="rounded-full w-3 h-3 m-1 bg-gray-400">
-            </span>
+          <span bind:this={themeToggle} data-toggle-theme="business, corporate" data-act-class="pl-4" class="border rounded-full flex items-center cursor-pointer w-10 transition-all duration-300 ease-in-out pl-0">
+            <span class="rounded-full w-3 h-3 m-1 bg-gray-400"></span>
           </span>
-        </div>
+        </div>  
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
       </div>
       

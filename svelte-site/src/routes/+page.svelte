@@ -24,11 +24,11 @@
   </div>
 
   <div class="md:carousel hidden gap-2 h-96 rounded-box">
-    <div class="carousel-item aspect-video rounded-box">
-      <PortfolioItem staticMedia="/ahbclearcreekstill.webp" animatedMedia="/AHB Clear Creek Gif.gif" />
+    <div class="carousel-item rounded-box">
+      <PortfolioItem class="aspect-video" staticMedia="/ahbclearcreekstill.webp" animatedMedia="/AHB Clear Creek Gif.gif" />
     </div>
-    <div class="carousel-item aspect-video rounded-box">
-      <PortfolioItem staticMedia="/laurendocthumbnail@0.5x.webp" animatedMedia="/lauren-doc.gif" />
+    <div class="carousel-item rounded-box">
+      <PortfolioItem class="aspect-video" staticMedia="/laurendocthumbnail@0.5x.webp" animatedMedia="/lauren-doc.gif" />
     </div> 
     </div>
   <!-- <div class="md:carousel hidden gap-2 h-96 rounded-box">
