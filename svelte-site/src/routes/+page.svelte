@@ -33,9 +33,9 @@
     </div>
     <div class="carousel-item rounded-box">
       <PortfolioItem staticMedia="/TLJP-gallery-photo.webp"animatedMedia="/TLJP-gallery-photo.webp" />
-    </div> 
+    </div>
     <div class="carousel-item rounded-box">
-      <PortfolioItem staticMedia="/yosemite-landscape-gallery.webp"animatedMedia="/yosemite-landscape-gallery.webp" />
+      <PortfolioItem staticMedia="/yosemite-landscape-gallery.webp"animatedMedia="/yosemite wedding gif.gif" />
     </div> 
     </div>
   <!-- <div class="md:carousel hidden gap-2 h-96 rounded-box">
